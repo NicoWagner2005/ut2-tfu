@@ -3,7 +3,7 @@
 API REST de recetas para demostrar una combinacion de tacticas de arquitectura:
 
 1. **Mantener multiples copias del computo**, para rendimiento.
-2. **Limitar el acceso**, para seguridad (resistir ataques).
+2. **Autorizar actores**, para seguridad (resistir ataques).
 3. **Validar la entrada**, para seguridad (resistir ataques).
 
 Los requerimientos no funcionales y la explicacion de como cada tactica los
@@ -171,7 +171,7 @@ La mejora proviene de reducir la espera en cola, no de acelerar un pedido
 individual. Como efectos secundarios, se consumen mas recursos, los logs se
 distribuyen y nginx se convierte en un punto unico de falla.
 
-## Tactica de seguridad: limitar el acceso
+## Tactica de seguridad: autorizar actores
 
 - Todas las solicitudes exigen una clave en el encabezado `X-API-Key`; si
   falta o es incorrecta responden `401` antes de resolver la ruta o ejecutar

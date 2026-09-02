@@ -37,12 +37,12 @@ los parámetros permitidos y que no existan parámetros repetidos. Esto evita
 que datos fuera del contrato ingresen al procesamiento del sistema y reduce el
 consumo abusivo de recursos.
 
-## 3. Seguridad — Limitar el acceso
+## 3. Seguridad — Autorizar actores
 
 **Requerimiento no funcional:** El sistema debe autenticar al usuario antes de
 permitirle hacer solicitudes.
 
-**Táctica seleccionada:** Limitar el acceso.
+**Táctica seleccionada:** Autorizar actores.
 
 **Explicación:** La restricción del acceso mediante la utilización de una
 API-KEY fortalece la seguridad del sistema, protegiendo la integridad del

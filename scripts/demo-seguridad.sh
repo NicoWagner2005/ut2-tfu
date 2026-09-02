@@ -69,7 +69,7 @@ printf 'Recurso protegido: GET /recetas\n'
 printf 'La huella_computo solamente existe si el pedido supera los controles.\n'
 
 separador
-printf 'TÁCTICA 1 — LIMITAR EL ACCESO\n'
+printf 'TÁCTICA 1 — AUTORIZAR ACTORES\n'
 printf 'Se mantiene igual el recurso solicitado y se cambia la credencial.\n'
 
 probar \
@@ -126,6 +126,6 @@ probar \
 
 separador
 printf 'CONCLUSIÓN\n'
-printf '• Limitar acceso detuvo los pedidos sin una credencial válida.\n'
+printf '• Autorizar actores detuvo los pedidos sin una credencial válida.\n'
 printf '• Validar entrada detuvo valores y parámetros fuera del contrato.\n'
 printf '• Solo los pedidos autorizados y válidos generaron huella_computo.\n'

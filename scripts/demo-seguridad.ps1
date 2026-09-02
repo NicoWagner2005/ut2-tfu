@@ -99,7 +99,7 @@ try {
     Write-Host "La huella_computo solamente existe si el pedido supera los controles."
 
     Write-Separator
-    Write-Host "TACTICA 1 - LIMITAR EL ACCESO"
+    Write-Host "TACTICA 1 - AUTORIZAR ACTORES"
     Write-Host "Se mantiene igual el recurso solicitado y se cambia la credencial."
 
     Invoke-DemoCase `
@@ -157,7 +157,7 @@ try {
 
     Write-Separator
     Write-Host "CONCLUSION"
-    Write-Host "- Limitar acceso detuvo los pedidos sin una credencial valida."
+    Write-Host "- Autorizar actores detuvo los pedidos sin una credencial valida."
     Write-Host "- Validar entrada detuvo valores y parametros fuera del contrato."
     Write-Host "- Solo los pedidos autorizados y validos generaron huella_computo."
 }
