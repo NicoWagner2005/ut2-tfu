@@ -37,13 +37,7 @@ docker compose up -d
 curl -s http://localhost:8080/recetas | python3 -m json.tool | head
 ```
 
-Para ver el reparto entre copias:
-
 ```bash
-for i in 1 2 3 4 5 6; do curl -s http://localhost:8080/recetas \
-  | python3 -c "import sys,json;print(json.load(sys.stdin)['atendido_por'])"; done
-# api1, api2, api3, api1, api2, api3  -> round-robin
-
 docker compose logs nginx | tail   # que copia atendio y cuanto tardo
 ```
 
