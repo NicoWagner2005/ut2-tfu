@@ -21,22 +21,37 @@ x-servicio-recetas: &copia-del-computo
   volumes:
     - ./app:/app:ro
   command: python -u server.py
+  environment: &entorno-base
+    API_KEY: ${API_KEY:-tfu-demo-key}
+  read_only: true
+  tmpfs:
+    - /tmp:size=16m
+  user: "65534:65534"
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+  networks:
+    - backend
   restart: unless-stopped
 
 services:
   api1:
     <<: *copia-del-computo
     environment:
+      <<: *entorno-base
       INSTANCE_ID: api1
 
   api2:
     <<: *copia-del-computo
     environment:
+      <<: *entorno-base
       INSTANCE_ID: api2
 
   api3:
     <<: *copia-del-computo
     environment:
+      <<: *entorno-base
       INSTANCE_ID: api3
 
   # Balanceador de carga. Es parte de la tactica, no un extra: sin algo que
@@ -51,4 +66,13 @@ services:
       - api1
       - api2
       - api3
+    networks:
+      - frontend
+      - backend
     restart: unless-stopped
+
+networks:
+  frontend:
+  backend:
+    # Las APIs no publican puertos al host; solo nginx puede alcanzarlas.
+    internal: true
