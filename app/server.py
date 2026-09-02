@@ -22,7 +22,7 @@ INSTANCE_ID = os.environ.get("INSTANCE_ID", "desconocida")
 ITERACIONES = int(os.environ.get("WORK_ITERATIONS", "450000"))
 
 with open("recipes.json", encoding="utf-8") as f:
-    RECETAS = json.load(f)
+    RECETAS = json.load(f)["recetas"]
 
 
 def computo_costoso():
