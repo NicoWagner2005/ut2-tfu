@@ -29,10 +29,27 @@ catalogo es fijo y de solo lectura, por lo que no hay estado que sincronizar.
 
 ## Inicio rapido
 
-Requisitos: Docker con Compose y `curl`.
+Requisito general: Docker Desktop o Docker Engine con Compose. Los scripts de
+macOS/Linux usan ademas `curl` y Python 3; los scripts de Windows usan
+PowerShell y las bibliotecas .NET incluidas en el sistema.
+
+macOS o Linux:
 
 ```bash
 ./scripts/iniciar.sh
+```
+
+Windows PowerShell:
+
+```powershell
+.\scripts\iniciar.ps1
+```
+
+Si la politica de ejecucion de Windows bloquea scripts locales, se puede usar
+sin cambiar la configuracion global:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\iniciar.ps1
 ```
 
 El script usa la clave didactica `tfu-demo-key`. Se puede elegir otra antes de
@@ -40,6 +57,13 @@ iniciar:
 
 ```bash
 API_KEY='una-clave-distinta' ./scripts/iniciar.sh
+```
+
+En PowerShell:
+
+```powershell
+$env:API_KEY = "una-clave-distinta"
+.\scripts\iniciar.ps1
 ```
 
 Los scripts de demo deben ejecutarse con el mismo valor de `API_KEY`.
@@ -76,7 +100,7 @@ curl -s \
 
 ## Demo completa
 
-Con el entorno levantado, ejecutar:
+Con el entorno levantado, ejecutar en macOS o Linux:
 
 ```bash
 ./scripts/demo-multiples-copias.sh
@@ -93,6 +117,20 @@ ejecutarla completa sin pausas:
 
 ```bash
 PAUSA=0 ./scripts/demo-seguridad.sh
+```
+
+En Windows PowerShell:
+
+```powershell
+.\scripts\demo-multiples-copias.ps1
+.\scripts\demo-seguridad.ps1
+```
+
+La demo de seguridad tambien se pausa de forma predeterminada en Windows. Para
+ejecutarla de corrido:
+
+```powershell
+.\scripts\demo-seguridad.ps1 -NoPause
 ```
 
 ## Tactica de rendimiento: multiples copias del computo
@@ -182,6 +220,9 @@ docker compose config --quiet
 | `scripts/demo-multiples-copias.sh` | Demuestra la tactica de rendimiento |
 | `scripts/medir-rendimiento.py` | Compara throughput y latencia con 1 y 3 copias |
 | `scripts/demo-seguridad.sh` | Demuestra ambas tacticas de seguridad |
+| `scripts/iniciar.ps1` | Inicio compatible con Windows PowerShell |
+| `scripts/demo-multiples-copias.ps1` | Demo de rendimiento para Windows |
+| `scripts/demo-seguridad.ps1` | Demo de seguridad para Windows |
 | `tests/test_server.py` | Verifica acceso, validacion y contrato HTTP |
 
 ## Detener el entorno
