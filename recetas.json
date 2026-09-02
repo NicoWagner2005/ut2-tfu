@@ -1,0 +1,1645 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Milanesa de carne",
+      "categoria": "Plato principal",
+      "cocina": "Argentina",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "4 bifes de carne",
+        "2 huevos",
+        "1 taza de pan rallado",
+        "sal",
+        "pimienta",
+        "aceite para freír"
+      ],
+      "pasos": [
+        "Salpimentar los bifes",
+        "Pasar por huevo batido",
+        "Rebozar con pan rallado",
+        "Freír en aceite caliente hasta dorar",
+        "Escurrir sobre papel absorbente"
+      ],
+      "tags": [
+        "carne",
+        "frito",
+        "tradicional"
+      ],
+      "calorias_por_porcion": 450,
+      "rating": 3.6,
+      "imagen_url": "https://picsum.photos/seed/receta1/400/300"
+    },
+    {
+      "id": 2,
+      "nombre": "Empanadas de carne",
+      "categoria": "Entrada",
+      "cocina": "Argentina",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 40,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 65,
+      "porciones": 12,
+      "ingredientes": [
+        "500g de carne picada",
+        "2 cebollas",
+        "tapas para empanadas",
+        "huevo duro",
+        "pimentón",
+        "comino",
+        "aceitunas"
+      ],
+      "pasos": [
+        "Rehogar la cebolla",
+        "Agregar la carne y condimentos",
+        "Cocinar hasta que esté tierna",
+        "Dejar enfriar el relleno",
+        "Rellenar las tapas y cerrar",
+        "Hornear a 200°C por 20 minutos"
+      ],
+      "tags": [
+        "horno",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 220,
+      "rating": 3.7,
+      "imagen_url": "https://picsum.photos/seed/receta2/400/300"
+    },
+    {
+      "id": 3,
+      "nombre": "Locro",
+      "categoria": "Plato principal",
+      "cocina": "Argentina",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 180,
+      "tiempo_total_min": 210,
+      "porciones": 8,
+      "ingredientes": [
+        "500g de maíz blanco",
+        "300g de porotos",
+        "500g de zapallo",
+        "chorizo colorado",
+        "panceta",
+        "cebolla de verdeo"
+      ],
+      "pasos": [
+        "Remojar el maíz y los porotos la noche anterior",
+        "Cocinar a fuego lento con agua",
+        "Agregar el zapallo y las carnes",
+        "Cocinar varias horas revolviendo",
+        "Servir con salsa picante"
+      ],
+      "tags": [
+        "invierno",
+        "guiso"
+      ],
+      "calorias_por_porcion": 380,
+      "rating": 3.8,
+      "imagen_url": "https://picsum.photos/seed/receta3/400/300"
+    },
+    {
+      "id": 4,
+      "nombre": "Pizza margarita",
+      "categoria": "Plato principal",
+      "cocina": "Italia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 90,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 105,
+      "porciones": 4,
+      "ingredientes": [
+        "harina 000",
+        "levadura",
+        "salsa de tomate",
+        "mozzarella",
+        "albahaca fresca",
+        "aceite de oliva"
+      ],
+      "pasos": [
+        "Preparar la masa y dejar leudar",
+        "Estirar la masa",
+        "Cubrir con salsa de tomate",
+        "Agregar mozzarella",
+        "Hornear a máxima temperatura",
+        "Decorar con albahaca fresca"
+      ],
+      "tags": [
+        "horno",
+        "vegetariano"
+      ],
+      "calorias_por_porcion": 280,
+      "rating": 3.9,
+      "imagen_url": "https://picsum.photos/seed/receta4/400/300"
+    },
+    {
+      "id": 5,
+      "nombre": "Pasta carbonara",
+      "categoria": "Plato principal",
+      "cocina": "Italia",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 10,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 25,
+      "porciones": 2,
+      "ingredientes": [
+        "200g de spaghetti",
+        "100g de panceta",
+        "2 yemas de huevo",
+        "queso parmesano",
+        "pimienta negra"
+      ],
+      "pasos": [
+        "Cocinar la pasta en agua con sal",
+        "Dorar la panceta",
+        "Batir las yemas con el queso",
+        "Mezclar la pasta caliente con la panceta",
+        "Incorporar la mezcla de huevo fuera del fuego",
+        "Servir con pimienta"
+      ],
+      "tags": [
+        "rápido",
+        "clásico"
+      ],
+      "calorias_por_porcion": 520,
+      "rating": 4.0,
+      "imagen_url": "https://picsum.photos/seed/receta5/400/300"
+    },
+    {
+      "id": 6,
+      "nombre": "Risotto de hongos",
+      "categoria": "Plato principal",
+      "cocina": "Italia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 30,
+      "tiempo_total_min": 45,
+      "porciones": 4,
+      "ingredientes": [
+        "arroz arborio",
+        "hongos de pino",
+        "caldo de verduras",
+        "vino blanco",
+        "cebolla",
+        "queso parmesano",
+        "manteca"
+      ],
+      "pasos": [
+        "Rehogar la cebolla",
+        "Agregar el arroz y tostar",
+        "Incorporar vino blanco",
+        "Añadir caldo caliente de a poco revolviendo",
+        "Sumar los hongos",
+        "Finalizar con manteca y queso"
+      ],
+      "tags": [
+        "vegetariano",
+        "cremoso"
+      ],
+      "calorias_por_porcion": 410,
+      "rating": 4.1,
+      "imagen_url": "https://picsum.photos/seed/receta6/400/300"
+    },
+    {
+      "id": 7,
+      "nombre": "Lasagna boloñesa",
+      "categoria": "Plato principal",
+      "cocina": "Italia",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 40,
+      "tiempo_coccion_min": 60,
+      "tiempo_total_min": 100,
+      "porciones": 6,
+      "ingredientes": [
+        "láminas de pasta",
+        "carne picada",
+        "salsa de tomate",
+        "salsa bechamel",
+        "queso mozzarella",
+        "queso parmesano"
+      ],
+      "pasos": [
+        "Preparar el ragú de carne",
+        "Preparar la bechamel",
+        "Armar capas alternando pasta, ragú y bechamel",
+        "Cubrir con queso",
+        "Hornear hasta gratinar"
+      ],
+      "tags": [
+        "horno",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 480,
+      "rating": 4.2,
+      "imagen_url": "https://picsum.photos/seed/receta7/400/300"
+    },
+    {
+      "id": 8,
+      "nombre": "Tacos al pastor",
+      "categoria": "Plato principal",
+      "cocina": "México",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 60,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 80,
+      "porciones": 4,
+      "ingredientes": [
+        "carne de cerdo",
+        "achiote",
+        "piña",
+        "tortillas de maíz",
+        "cebolla",
+        "cilantro",
+        "chiles"
+      ],
+      "pasos": [
+        "Marinar la carne con achiote y especias",
+        "Cocinar en trompo o sartén",
+        "Cortar en trozos finos",
+        "Servir en tortillas con piña, cebolla y cilantro"
+      ],
+      "tags": [
+        "picante",
+        "callejero"
+      ],
+      "calorias_por_porcion": 310,
+      "rating": 4.3,
+      "imagen_url": "https://picsum.photos/seed/receta8/400/300"
+    },
+    {
+      "id": 9,
+      "nombre": "Guacamole",
+      "categoria": "Entrada",
+      "cocina": "México",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 10,
+      "tiempo_coccion_min": 0,
+      "tiempo_total_min": 10,
+      "porciones": 4,
+      "ingredientes": [
+        "3 paltas maduras",
+        "1 tomate",
+        "cebolla morada",
+        "limón",
+        "cilantro",
+        "chile serrano"
+      ],
+      "pasos": [
+        "Pisar las paltas",
+        "Picar el tomate y la cebolla finamente",
+        "Mezclar todos los ingredientes",
+        "Condimentar con limón y sal"
+      ],
+      "tags": [
+        "fresco",
+        "sin cocción"
+      ],
+      "calorias_por_porcion": 190,
+      "rating": 4.4,
+      "imagen_url": "https://picsum.photos/seed/receta9/400/300"
+    },
+    {
+      "id": 10,
+      "nombre": "Enchiladas verdes",
+      "categoria": "Plato principal",
+      "cocina": "México",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 25,
+      "tiempo_coccion_min": 30,
+      "tiempo_total_min": 55,
+      "porciones": 4,
+      "ingredientes": [
+        "tortillas de maíz",
+        "pollo cocido",
+        "salsa verde",
+        "crema",
+        "queso fresco",
+        "cebolla"
+      ],
+      "pasos": [
+        "Preparar la salsa verde con tomatillo",
+        "Rellenar las tortillas con pollo",
+        "Enrollar y cubrir con salsa",
+        "Gratinar con queso",
+        "Servir con crema"
+      ],
+      "tags": [
+        "horno",
+        "picante"
+      ],
+      "calorias_por_porcion": 390,
+      "rating": 4.5,
+      "imagen_url": "https://picsum.photos/seed/receta10/400/300"
+    },
+    {
+      "id": 11,
+      "nombre": "Sushi de salmón",
+      "categoria": "Plato principal",
+      "cocina": "Japón",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 45,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 65,
+      "porciones": 4,
+      "ingredientes": [
+        "arroz para sushi",
+        "salmón fresco",
+        "alga nori",
+        "vinagre de arroz",
+        "palta",
+        "salsa de soja"
+      ],
+      "pasos": [
+        "Cocinar el arroz y condimentar con vinagre",
+        "Cortar el salmón en tiras",
+        "Armar los rollos sobre el alga",
+        "Cortar en porciones",
+        "Servir con soja y wasabi"
+      ],
+      "tags": [
+        "pescado",
+        "crudo"
+      ],
+      "calorias_por_porcion": 340,
+      "rating": 4.6,
+      "imagen_url": "https://picsum.photos/seed/receta11/400/300"
+    },
+    {
+      "id": 12,
+      "nombre": "Ramen de cerdo",
+      "categoria": "Plato principal",
+      "cocina": "Japón",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 240,
+      "tiempo_total_min": 270,
+      "porciones": 4,
+      "ingredientes": [
+        "fideos ramen",
+        "panza de cerdo",
+        "caldo de huesos",
+        "huevo cocido",
+        "cebolla de verdeo",
+        "alga nori"
+      ],
+      "pasos": [
+        "Preparar el caldo cocinando huesos por horas",
+        "Cocinar la panza de cerdo hasta tierna",
+        "Cocer los fideos",
+        "Armar el bowl con caldo, fideos y toppings"
+      ],
+      "tags": [
+        "caldo",
+        "reconfortante"
+      ],
+      "calorias_por_porcion": 550,
+      "rating": 4.7,
+      "imagen_url": "https://picsum.photos/seed/receta12/400/300"
+    },
+    {
+      "id": 13,
+      "nombre": "Yakitori",
+      "categoria": "Entrada",
+      "cocina": "Japón",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "muslos de pollo",
+        "salsa tare",
+        "cebolla de verdeo",
+        "brochettes de madera"
+      ],
+      "pasos": [
+        "Cortar el pollo en cubos",
+        "Ensartar alternando con cebolla",
+        "Grillar pincelando con salsa tare",
+        "Servir caliente"
+      ],
+      "tags": [
+        "grill",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 280,
+      "rating": 4.8,
+      "imagen_url": "https://picsum.photos/seed/receta13/400/300"
+    },
+    {
+      "id": 14,
+      "nombre": "Pad thai",
+      "categoria": "Plato principal",
+      "cocina": "Tailandia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 35,
+      "porciones": 3,
+      "ingredientes": [
+        "fideos de arroz",
+        "camarones",
+        "huevo",
+        "brotes de soja",
+        "maní",
+        "salsa de tamarindo",
+        "lima"
+      ],
+      "pasos": [
+        "Remojar los fideos de arroz",
+        "Saltear los camarones",
+        "Agregar huevo revuelto",
+        "Incorporar los fideos y la salsa",
+        "Finalizar con maní y lima"
+      ],
+      "tags": [
+        "salteado",
+        "picante"
+      ],
+      "calorias_por_porcion": 420,
+      "rating": 4.9,
+      "imagen_url": "https://picsum.photos/seed/receta14/400/300"
+    },
+    {
+      "id": 15,
+      "nombre": "Curry verde de pollo",
+      "categoria": "Plato principal",
+      "cocina": "Tailandia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 40,
+      "porciones": 4,
+      "ingredientes": [
+        "pechuga de pollo",
+        "pasta de curry verde",
+        "leche de coco",
+        "berenjenas tailandesas",
+        "albahaca thai"
+      ],
+      "pasos": [
+        "Saltear la pasta de curry",
+        "Agregar leche de coco",
+        "Incorporar el pollo",
+        "Sumar las verduras",
+        "Finalizar con albahaca fresca"
+      ],
+      "tags": [
+        "picante",
+        "coco"
+      ],
+      "calorias_por_porcion": 460,
+      "rating": 3.5,
+      "imagen_url": "https://picsum.photos/seed/receta15/400/300"
+    },
+    {
+      "id": 16,
+      "nombre": "Butter chicken",
+      "categoria": "Plato principal",
+      "cocina": "India",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 40,
+      "tiempo_total_min": 70,
+      "porciones": 4,
+      "ingredientes": [
+        "pollo",
+        "yogur",
+        "salsa de tomate",
+        "crema",
+        "manteca",
+        "garam masala",
+        "jengibre",
+        "ajo"
+      ],
+      "pasos": [
+        "Marinar el pollo con yogur y especias",
+        "Cocinar el pollo al horno o sartén",
+        "Preparar la salsa de tomate con especias",
+        "Agregar crema y manteca",
+        "Incorporar el pollo a la salsa"
+      ],
+      "tags": [
+        "cremoso",
+        "especiado"
+      ],
+      "calorias_por_porcion": 490,
+      "rating": 3.6,
+      "imagen_url": "https://picsum.photos/seed/receta16/400/300"
+    },
+    {
+      "id": 17,
+      "nombre": "Samosas de papa",
+      "categoria": "Entrada",
+      "cocina": "India",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 40,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 60,
+      "porciones": 8,
+      "ingredientes": [
+        "masa para samosas",
+        "papas",
+        "arvejas",
+        "comino",
+        "cúrcuma",
+        "cilantro"
+      ],
+      "pasos": [
+        "Cocinar y pisar las papas",
+        "Saltear con especias y arvejas",
+        "Rellenar los triángulos de masa",
+        "Freír hasta dorar"
+      ],
+      "tags": [
+        "frito",
+        "vegetariano"
+      ],
+      "calorias_por_porcion": 250,
+      "rating": 3.7,
+      "imagen_url": "https://picsum.photos/seed/receta17/400/300"
+    },
+    {
+      "id": 18,
+      "nombre": "Dal de lentejas",
+      "categoria": "Plato principal",
+      "cocina": "India",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 10,
+      "tiempo_coccion_min": 30,
+      "tiempo_total_min": 40,
+      "porciones": 4,
+      "ingredientes": [
+        "lentejas rojas",
+        "tomate",
+        "cebolla",
+        "jengibre",
+        "cúrcuma",
+        "comino",
+        "cilantro fresco"
+      ],
+      "pasos": [
+        "Cocinar las lentejas hasta ablandar",
+        "Preparar un sofrito de cebolla y especias",
+        "Combinar con las lentejas",
+        "Cocinar unos minutos más",
+        "Decorar con cilantro"
+      ],
+      "tags": [
+        "vegano",
+        "económico"
+      ],
+      "calorias_por_porcion": 280,
+      "rating": 3.8,
+      "imagen_url": "https://picsum.photos/seed/receta18/400/300"
+    },
+    {
+      "id": 19,
+      "nombre": "Ratatouille",
+      "categoria": "Plato principal",
+      "cocina": "Francia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 25,
+      "tiempo_coccion_min": 45,
+      "tiempo_total_min": 70,
+      "porciones": 4,
+      "ingredientes": [
+        "berenjena",
+        "zapallito",
+        "pimiento",
+        "tomate",
+        "cebolla",
+        "hierbas de provenza"
+      ],
+      "pasos": [
+        "Cortar todas las verduras en rodajas finas",
+        "Preparar una base de salsa de tomate",
+        "Acomodar las verduras en capas",
+        "Hornear cubierto con papel aluminio",
+        "Destapar los últimos minutos para dorar"
+      ],
+      "tags": [
+        "vegetariano",
+        "horno"
+      ],
+      "calorias_por_porcion": 190,
+      "rating": 3.9,
+      "imagen_url": "https://picsum.photos/seed/receta19/400/300"
+    },
+    {
+      "id": 20,
+      "nombre": "Quiche lorraine",
+      "categoria": "Plato principal",
+      "cocina": "Francia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 40,
+      "tiempo_total_min": 70,
+      "porciones": 6,
+      "ingredientes": [
+        "masa quebrada",
+        "panceta",
+        "huevos",
+        "crema de leche",
+        "queso gruyere"
+      ],
+      "pasos": [
+        "Forrar un molde con la masa",
+        "Dorar la panceta",
+        "Batir huevos con crema",
+        "Combinar todo en el molde",
+        "Hornear hasta cuajar"
+      ],
+      "tags": [
+        "horno",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 420,
+      "rating": 4.0,
+      "imagen_url": "https://picsum.photos/seed/receta20/400/300"
+    },
+    {
+      "id": 21,
+      "nombre": "Coq au vin",
+      "categoria": "Plato principal",
+      "cocina": "Francia",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 90,
+      "tiempo_total_min": 120,
+      "porciones": 4,
+      "ingredientes": [
+        "pollo",
+        "vino tinto",
+        "panceta",
+        "champiñones",
+        "cebollas perla",
+        "zanahoria"
+      ],
+      "pasos": [
+        "Dorar el pollo y reservar",
+        "Dorar la panceta y verduras",
+        "Flambear con vino",
+        "Volver a incorporar el pollo",
+        "Cocinar a fuego lento hasta espesar"
+      ],
+      "tags": [
+        "guiso",
+        "vino"
+      ],
+      "calorias_por_porcion": 500,
+      "rating": 4.1,
+      "imagen_url": "https://picsum.photos/seed/receta21/400/300"
+    },
+    {
+      "id": 22,
+      "nombre": "Paella valenciana",
+      "categoria": "Plato principal",
+      "cocina": "España",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 45,
+      "tiempo_total_min": 75,
+      "porciones": 6,
+      "ingredientes": [
+        "arroz bomba",
+        "pollo",
+        "conejo",
+        "judías verdes",
+        "garrofón",
+        "azafrán",
+        "caldo de pollo"
+      ],
+      "pasos": [
+        "Dorar las carnes en la paellera",
+        "Agregar las verduras",
+        "Incorporar el arroz y azafrán",
+        "Añadir el caldo caliente",
+        "Cocinar sin remover hasta absorber el líquido"
+      ],
+      "tags": [
+        "arroz",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 460,
+      "rating": 4.2,
+      "imagen_url": "https://picsum.photos/seed/receta22/400/300"
+    },
+    {
+      "id": 23,
+      "nombre": "Tortilla española",
+      "categoria": "Entrada",
+      "cocina": "España",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 45,
+      "porciones": 4,
+      "ingredientes": [
+        "papas",
+        "huevos",
+        "cebolla",
+        "aceite de oliva",
+        "sal"
+      ],
+      "pasos": [
+        "Cortar las papas y cebolla en láminas",
+        "Freír a fuego bajo hasta tiernas",
+        "Batir los huevos",
+        "Mezclar con las papas",
+        "Cuajar la tortilla vuelta y vuelta en sartén"
+      ],
+      "tags": [
+        "clásico",
+        "vegetariano"
+      ],
+      "calorias_por_porcion": 350,
+      "rating": 4.3,
+      "imagen_url": "https://picsum.photos/seed/receta23/400/300"
+    },
+    {
+      "id": 24,
+      "nombre": "Gazpacho andaluz",
+      "categoria": "Entrada",
+      "cocina": "España",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 0,
+      "tiempo_total_min": 15,
+      "porciones": 4,
+      "ingredientes": [
+        "tomates",
+        "pepino",
+        "pimiento verde",
+        "ajo",
+        "pan duro",
+        "vinagre",
+        "aceite de oliva"
+      ],
+      "pasos": [
+        "Trocear todas las verduras",
+        "Procesar junto con el pan remojado",
+        "Colar si se desea textura fina",
+        "Condimentar con vinagre y aceite",
+        "Refrigerar antes de servir"
+      ],
+      "tags": [
+        "frío",
+        "verano"
+      ],
+      "calorias_por_porcion": 150,
+      "rating": 4.4,
+      "imagen_url": "https://picsum.photos/seed/receta24/400/300"
+    },
+    {
+      "id": 25,
+      "nombre": "Hummus",
+      "categoria": "Entrada",
+      "cocina": "Medio Oriente",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 10,
+      "tiempo_coccion_min": 0,
+      "tiempo_total_min": 10,
+      "porciones": 4,
+      "ingredientes": [
+        "garbanzos cocidos",
+        "tahini",
+        "limón",
+        "ajo",
+        "aceite de oliva",
+        "comino"
+      ],
+      "pasos": [
+        "Procesar los garbanzos con tahini",
+        "Agregar limón y ajo",
+        "Incorporar aceite hasta lograr textura cremosa",
+        "Condimentar con comino y sal"
+      ],
+      "tags": [
+        "vegano",
+        "sin cocción"
+      ],
+      "calorias_por_porcion": 210,
+      "rating": 4.5,
+      "imagen_url": "https://picsum.photos/seed/receta25/400/300"
+    },
+    {
+      "id": 26,
+      "nombre": "Falafel",
+      "categoria": "Plato principal",
+      "cocina": "Medio Oriente",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "garbanzos remojados",
+        "cilantro",
+        "perejil",
+        "ajo",
+        "comino",
+        "cilantro en polvo"
+      ],
+      "pasos": [
+        "Procesar los garbanzos con las especias",
+        "Formar bolitas",
+        "Freír hasta dorar",
+        "Servir con pan pita y salsa tahini"
+      ],
+      "tags": [
+        "frito",
+        "vegano"
+      ],
+      "calorias_por_porcion": 300,
+      "rating": 4.6,
+      "imagen_url": "https://picsum.photos/seed/receta26/400/300"
+    },
+    {
+      "id": 27,
+      "nombre": "Shawarma de pollo",
+      "categoria": "Plato principal",
+      "cocina": "Medio Oriente",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 55,
+      "porciones": 4,
+      "ingredientes": [
+        "pechuga de pollo",
+        "yogur",
+        "especias shawarma",
+        "pan pita",
+        "pepino",
+        "tomate"
+      ],
+      "pasos": [
+        "Marinar el pollo con yogur y especias",
+        "Cocinar a la plancha",
+        "Cortar en tiras finas",
+        "Armar el pan pita con verduras y salsa"
+      ],
+      "tags": [
+        "especiado",
+        "callejero"
+      ],
+      "calorias_por_porcion": 380,
+      "rating": 4.7,
+      "imagen_url": "https://picsum.photos/seed/receta27/400/300"
+    },
+    {
+      "id": 28,
+      "nombre": "Feijoada",
+      "categoria": "Plato principal",
+      "cocina": "Brasil",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 180,
+      "tiempo_total_min": 210,
+      "porciones": 8,
+      "ingredientes": [
+        "porotos negros",
+        "carne de cerdo",
+        "chorizo",
+        "panceta",
+        "cebolla",
+        "ajo",
+        "laurel"
+      ],
+      "pasos": [
+        "Remojar los porotos",
+        "Cocinar con las carnes ahumadas",
+        "Cocinar a fuego lento por horas",
+        "Servir con arroz blanco y naranja"
+      ],
+      "tags": [
+        "guiso",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 520,
+      "rating": 4.8,
+      "imagen_url": "https://picsum.photos/seed/receta28/400/300"
+    },
+    {
+      "id": 29,
+      "nombre": "Ceviche de pescado",
+      "categoria": "Entrada",
+      "cocina": "Perú",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 25,
+      "tiempo_coccion_min": 0,
+      "tiempo_total_min": 25,
+      "porciones": 4,
+      "ingredientes": [
+        "pescado blanco fresco",
+        "limón",
+        "cebolla morada",
+        "ají limo",
+        "cilantro",
+        "camote"
+      ],
+      "pasos": [
+        "Cortar el pescado en cubos",
+        "Marinar con jugo de limón",
+        "Agregar cebolla y ají",
+        "Dejar reposar unos minutos",
+        "Servir con camote y choclo"
+      ],
+      "tags": [
+        "fresco",
+        "sin cocción"
+      ],
+      "calorias_por_porcion": 220,
+      "rating": 4.9,
+      "imagen_url": "https://picsum.photos/seed/receta29/400/300"
+    },
+    {
+      "id": 30,
+      "nombre": "Lomo saltado",
+      "categoria": "Plato principal",
+      "cocina": "Perú",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "lomo de res",
+        "cebolla",
+        "tomate",
+        "papas fritas",
+        "salsa de soja",
+        "ají amarillo"
+      ],
+      "pasos": [
+        "Saltear la carne a fuego fuerte",
+        "Agregar cebolla y tomate",
+        "Incorporar salsa de soja",
+        "Mezclar con las papas fritas",
+        "Servir con arroz"
+      ],
+      "tags": [
+        "salteado",
+        "rápido"
+      ],
+      "calorias_por_porcion": 480,
+      "rating": 3.5,
+      "imagen_url": "https://picsum.photos/seed/receta30/400/300"
+    },
+    {
+      "id": 31,
+      "nombre": "Arepas venezolanas",
+      "categoria": "Plato principal",
+      "cocina": "Venezuela",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "harina de maíz precocida",
+        "agua",
+        "sal",
+        "queso",
+        "relleno a elección"
+      ],
+      "pasos": [
+        "Mezclar la harina con agua y sal",
+        "Formar bollos y aplastar",
+        "Cocinar en plancha hasta dorar",
+        "Abrir y rellenar a gusto"
+      ],
+      "tags": [
+        "desayuno",
+        "sin gluten"
+      ],
+      "calorias_por_porcion": 260,
+      "rating": 3.6,
+      "imagen_url": "https://picsum.photos/seed/receta31/400/300"
+    },
+    {
+      "id": 32,
+      "nombre": "Pollo al curry",
+      "categoria": "Plato principal",
+      "cocina": "Fusión",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 30,
+      "tiempo_total_min": 45,
+      "porciones": 4,
+      "ingredientes": [
+        "pechuga de pollo",
+        "curry en polvo",
+        "leche de coco",
+        "cebolla",
+        "ajo",
+        "jengibre"
+      ],
+      "pasos": [
+        "Saltear cebolla, ajo y jengibre",
+        "Agregar el pollo y dorar",
+        "Incorporar curry y leche de coco",
+        "Cocinar hasta espesar",
+        "Servir con arroz"
+      ],
+      "tags": [
+        "cremoso",
+        "rápido"
+      ],
+      "calorias_por_porcion": 400,
+      "rating": 3.7,
+      "imagen_url": "https://picsum.photos/seed/receta32/400/300"
+    },
+    {
+      "id": 33,
+      "nombre": "Ensalada César",
+      "categoria": "Entrada",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 10,
+      "tiempo_total_min": 25,
+      "porciones": 2,
+      "ingredientes": [
+        "lechuga romana",
+        "pollo grillado",
+        "pan tostado",
+        "queso parmesano",
+        "aderezo césar"
+      ],
+      "pasos": [
+        "Grillar el pollo y cortar en tiras",
+        "Preparar los croutones",
+        "Mezclar la lechuga con el aderezo",
+        "Agregar pollo, queso y croutones"
+      ],
+      "tags": [
+        "ensalada",
+        "rápido"
+      ],
+      "calorias_por_porcion": 320,
+      "rating": 3.8,
+      "imagen_url": "https://picsum.photos/seed/receta33/400/300"
+    },
+    {
+      "id": 34,
+      "nombre": "Sopa de tomate",
+      "categoria": "Entrada",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 10,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "tomates",
+        "cebolla",
+        "ajo",
+        "caldo de verduras",
+        "crema",
+        "albahaca"
+      ],
+      "pasos": [
+        "Rehogar cebolla y ajo",
+        "Agregar tomates y caldo",
+        "Cocinar hasta reducir",
+        "Procesar hasta lograr textura suave",
+        "Agregar crema y albahaca"
+      ],
+      "tags": [
+        "sopa",
+        "vegetariano"
+      ],
+      "calorias_por_porcion": 180,
+      "rating": 3.9,
+      "imagen_url": "https://picsum.photos/seed/receta34/400/300"
+    },
+    {
+      "id": 35,
+      "nombre": "Hamburguesa clásica",
+      "categoria": "Plato principal",
+      "cocina": "Estados Unidos",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 30,
+      "porciones": 4,
+      "ingredientes": [
+        "carne picada",
+        "pan de hamburguesa",
+        "queso cheddar",
+        "lechuga",
+        "tomate",
+        "cebolla"
+      ],
+      "pasos": [
+        "Formar las medallones de carne",
+        "Cocinar a la plancha",
+        "Tostar el pan",
+        "Armar con queso, lechuga, tomate y cebolla"
+      ],
+      "tags": [
+        "grill",
+        "rápido"
+      ],
+      "calorias_por_porcion": 550,
+      "rating": 4.0,
+      "imagen_url": "https://picsum.photos/seed/receta35/400/300"
+    },
+    {
+      "id": 36,
+      "nombre": "Costillas BBQ",
+      "categoria": "Plato principal",
+      "cocina": "Estados Unidos",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 180,
+      "tiempo_total_min": 200,
+      "porciones": 4,
+      "ingredientes": [
+        "costillas de cerdo",
+        "salsa barbacoa",
+        "azúcar morena",
+        "pimentón ahumado",
+        "ajo en polvo"
+      ],
+      "pasos": [
+        "Condimentar las costillas con las especias",
+        "Cocinar lento al horno cubiertas",
+        "Pincelar con salsa barbacoa",
+        "Terminar a la parrilla o grill"
+      ],
+      "tags": [
+        "horno",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 610,
+      "rating": 4.1,
+      "imagen_url": "https://picsum.photos/seed/receta36/400/300"
+    },
+    {
+      "id": 37,
+      "nombre": "Mac and cheese",
+      "categoria": "Plato principal",
+      "cocina": "Estados Unidos",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 10,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "macarrones",
+        "queso cheddar",
+        "leche",
+        "manteca",
+        "harina",
+        "pan rallado"
+      ],
+      "pasos": [
+        "Cocinar los macarrones",
+        "Preparar una salsa bechamel",
+        "Agregar el queso hasta derretir",
+        "Mezclar con la pasta",
+        "Gratinar con pan rallado"
+      ],
+      "tags": [
+        "horno",
+        "cremoso"
+      ],
+      "calorias_por_porcion": 500,
+      "rating": 4.2,
+      "imagen_url": "https://picsum.photos/seed/receta37/400/300"
+    },
+    {
+      "id": 38,
+      "nombre": "Bibimbap",
+      "categoria": "Plato principal",
+      "cocina": "Corea",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 50,
+      "porciones": 2,
+      "ingredientes": [
+        "arroz cocido",
+        "carne de res",
+        "espinaca",
+        "zanahoria",
+        "brotes de soja",
+        "huevo frito",
+        "gochujang"
+      ],
+      "pasos": [
+        "Cocinar la carne salteada",
+        "Saltear cada verdura por separado",
+        "Armar el bowl con arroz de base",
+        "Disponer las verduras y carne",
+        "Coronar con huevo frito y gochujang"
+      ],
+      "tags": [
+        "colorido",
+        "balanceado"
+      ],
+      "calorias_por_porcion": 430,
+      "rating": 4.3,
+      "imagen_url": "https://picsum.photos/seed/receta38/400/300"
+    },
+    {
+      "id": 39,
+      "nombre": "Pollo teriyaki",
+      "categoria": "Plato principal",
+      "cocina": "Japón",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 20,
+      "tiempo_total_min": 35,
+      "porciones": 4,
+      "ingredientes": [
+        "muslos de pollo",
+        "salsa de soja",
+        "mirin",
+        "azúcar",
+        "jengibre",
+        "ajo"
+      ],
+      "pasos": [
+        "Preparar la salsa teriyaki mezclando los ingredientes",
+        "Cocinar el pollo a la plancha",
+        "Agregar la salsa y reducir",
+        "Servir con arroz y vegetales"
+      ],
+      "tags": [
+        "glaseado",
+        "rápido"
+      ],
+      "calorias_por_porcion": 390,
+      "rating": 4.4,
+      "imagen_url": "https://picsum.photos/seed/receta39/400/300"
+    },
+    {
+      "id": 40,
+      "nombre": "Moussaka",
+      "categoria": "Plato principal",
+      "cocina": "Grecia",
+      "dificultad": "Difícil",
+      "tiempo_preparacion_min": 40,
+      "tiempo_coccion_min": 60,
+      "tiempo_total_min": 100,
+      "porciones": 6,
+      "ingredientes": [
+        "berenjenas",
+        "carne picada de cordero",
+        "salsa de tomate",
+        "salsa bechamel",
+        "queso"
+      ],
+      "pasos": [
+        "Freír o grillar las berenjenas",
+        "Preparar el relleno de carne",
+        "Armar capas de berenjena y carne",
+        "Cubrir con bechamel y queso",
+        "Hornear hasta gratinar"
+      ],
+      "tags": [
+        "horno",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 470,
+      "rating": 4.5,
+      "imagen_url": "https://picsum.photos/seed/receta40/400/300"
+    },
+    {
+      "id": 41,
+      "nombre": "Tzatziki",
+      "categoria": "Entrada",
+      "cocina": "Grecia",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 0,
+      "tiempo_total_min": 15,
+      "porciones": 4,
+      "ingredientes": [
+        "yogur griego",
+        "pepino",
+        "ajo",
+        "eneldo",
+        "aceite de oliva",
+        "limón"
+      ],
+      "pasos": [
+        "Rallar el pepino y escurrir bien",
+        "Mezclar con el yogur",
+        "Agregar ajo picado y eneldo",
+        "Condimentar con aceite y limón"
+      ],
+      "tags": [
+        "fresco",
+        "sin cocción"
+      ],
+      "calorias_por_porcion": 120,
+      "rating": 4.6,
+      "imagen_url": "https://picsum.photos/seed/receta41/400/300"
+    },
+    {
+      "id": 42,
+      "nombre": "Goulash húngaro",
+      "categoria": "Plato principal",
+      "cocina": "Hungría",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 20,
+      "tiempo_coccion_min": 90,
+      "tiempo_total_min": 110,
+      "porciones": 6,
+      "ingredientes": [
+        "carne de res",
+        "pimentón dulce",
+        "cebolla",
+        "papas",
+        "pimiento rojo",
+        "caldo de carne"
+      ],
+      "pasos": [
+        "Dorar la carne en trozos",
+        "Rehogar la cebolla con pimentón",
+        "Agregar caldo y cocinar a fuego lento",
+        "Incorporar papas y pimiento",
+        "Cocinar hasta espesar"
+      ],
+      "tags": [
+        "guiso",
+        "invierno"
+      ],
+      "calorias_por_porcion": 460,
+      "rating": 4.7,
+      "imagen_url": "https://picsum.photos/seed/receta42/400/300"
+    },
+    {
+      "id": 43,
+      "nombre": "Borsch",
+      "categoria": "Entrada",
+      "cocina": "Ucrania",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 25,
+      "tiempo_coccion_min": 60,
+      "tiempo_total_min": 85,
+      "porciones": 6,
+      "ingredientes": [
+        "remolacha",
+        "repollo",
+        "papa",
+        "zanahoria",
+        "carne de res",
+        "crema agria"
+      ],
+      "pasos": [
+        "Cocinar el caldo con la carne",
+        "Agregar las verduras cortadas",
+        "Cocinar hasta que estén tiernas",
+        "Servir con una cucharada de crema agria"
+      ],
+      "tags": [
+        "sopa",
+        "colorido"
+      ],
+      "calorias_por_porcion": 280,
+      "rating": 4.8,
+      "imagen_url": "https://picsum.photos/seed/receta43/400/300"
+    },
+    {
+      "id": 44,
+      "nombre": "Pierogi de papa",
+      "categoria": "Plato principal",
+      "cocina": "Polonia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 45,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 60,
+      "porciones": 6,
+      "ingredientes": [
+        "masa para pierogi",
+        "papas",
+        "queso",
+        "cebolla",
+        "manteca"
+      ],
+      "pasos": [
+        "Preparar el puré de papa con queso",
+        "Rellenar los discos de masa",
+        "Hervir hasta que floten",
+        "Saltear con manteca y cebolla dorada"
+      ],
+      "tags": [
+        "tradicional",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 350,
+      "rating": 4.9,
+      "imagen_url": "https://picsum.photos/seed/receta44/400/300"
+    },
+    {
+      "id": 45,
+      "nombre": "Tarta de manzana",
+      "categoria": "Postre",
+      "cocina": "Estados Unidos",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 45,
+      "tiempo_total_min": 75,
+      "porciones": 8,
+      "ingredientes": [
+        "manzanas",
+        "masa quebrada",
+        "azúcar",
+        "canela",
+        "manteca",
+        "limón"
+      ],
+      "pasos": [
+        "Cortar las manzanas en láminas finas",
+        "Mezclar con azúcar, canela y limón",
+        "Forrar el molde con la masa",
+        "Rellenar con las manzanas",
+        "Hornear hasta dorar"
+      ],
+      "tags": [
+        "horno",
+        "dulce"
+      ],
+      "calorias_por_porcion": 380,
+      "rating": 3.5,
+      "imagen_url": "https://picsum.photos/seed/receta45/400/300"
+    },
+    {
+      "id": 46,
+      "nombre": "Tiramisú",
+      "categoria": "Postre",
+      "cocina": "Italia",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 0,
+      "tiempo_total_min": 30,
+      "porciones": 8,
+      "ingredientes": [
+        "vainillas",
+        "café expreso",
+        "mascarpone",
+        "huevos",
+        "azúcar",
+        "cacao en polvo"
+      ],
+      "pasos": [
+        "Preparar el café y dejar enfriar",
+        "Batir yemas con azúcar y mascarpone",
+        "Remojar las vainillas en el café",
+        "Armar capas alternando vainillas y crema",
+        "Espolvorear cacao y refrigerar"
+      ],
+      "tags": [
+        "sin horno",
+        "cremoso"
+      ],
+      "calorias_por_porcion": 420,
+      "rating": 3.6,
+      "imagen_url": "https://picsum.photos/seed/receta46/400/300"
+    },
+    {
+      "id": 47,
+      "nombre": "Flan casero",
+      "categoria": "Postre",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 45,
+      "tiempo_total_min": 60,
+      "porciones": 6,
+      "ingredientes": [
+        "huevos",
+        "leche",
+        "azúcar",
+        "esencia de vainilla"
+      ],
+      "pasos": [
+        "Preparar el caramelo y cubrir el molde",
+        "Batir huevos, leche y azúcar",
+        "Verter sobre el caramelo",
+        "Cocinar a baño maría",
+        "Enfriar antes de desmoldar"
+      ],
+      "tags": [
+        "clásico",
+        "sencillo"
+      ],
+      "calorias_por_porcion": 260,
+      "rating": 3.7,
+      "imagen_url": "https://picsum.photos/seed/receta47/400/300"
+    },
+    {
+      "id": 48,
+      "nombre": "Brownie de chocolate",
+      "categoria": "Postre",
+      "cocina": "Estados Unidos",
+      "dificultad": "Fácil",
+      "tiempo_preparacion_min": 15,
+      "tiempo_coccion_min": 25,
+      "tiempo_total_min": 40,
+      "porciones": 9,
+      "ingredientes": [
+        "chocolate",
+        "manteca",
+        "azúcar",
+        "huevos",
+        "harina",
+        "nueces"
+      ],
+      "pasos": [
+        "Derretir el chocolate con la manteca",
+        "Batir con azúcar y huevos",
+        "Incorporar la harina",
+        "Agregar las nueces",
+        "Hornear hasta que quede húmedo en el centro"
+      ],
+      "tags": [
+        "horno",
+        "chocolate"
+      ],
+      "calorias_por_porcion": 410,
+      "rating": 3.8,
+      "imagen_url": "https://picsum.photos/seed/receta48/400/300"
+    },
+    {
+      "id": 49,
+      "nombre": "Cheesecake de frutos rojos",
+      "categoria": "Postre",
+      "cocina": "Estados Unidos",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 60,
+      "tiempo_total_min": 90,
+      "porciones": 8,
+      "ingredientes": [
+        "queso crema",
+        "galletas",
+        "manteca",
+        "azúcar",
+        "huevos",
+        "frutos rojos"
+      ],
+      "pasos": [
+        "Triturar las galletas con manteca para la base",
+        "Batir el queso crema con azúcar y huevos",
+        "Verter sobre la base",
+        "Hornear a baño maría",
+        "Cubrir con frutos rojos al enfriar"
+      ],
+      "tags": [
+        "horno",
+        "cremoso"
+      ],
+      "calorias_por_porcion": 450,
+      "rating": 3.9,
+      "imagen_url": "https://picsum.photos/seed/receta49/400/300"
+    },
+    {
+      "id": 50,
+      "nombre": "Alfajores de maicena",
+      "categoria": "Postre",
+      "cocina": "Argentina",
+      "dificultad": "Media",
+      "tiempo_preparacion_min": 30,
+      "tiempo_coccion_min": 15,
+      "tiempo_total_min": 45,
+      "porciones": 20,
+      "ingredientes": [
+        "maicena",
+        "harina",
+        "manteca",
+        "azúcar",
+        "dulce de leche",
+        "coco rallado"
+      ],
+      "pasos": [
+        "Mezclar los ingredientes secos con la manteca",
+        "Formar la masa y estirar",
+        "Cortar discos y hornear",
+        "Unir de a dos con dulce de leche",
+        "Pasar los bordes por coco rallado"
+      ],
+      "tags": [
+        "dulce",
+        "para compartir"
+      ],
+      "calorias_por_porcion": 300,
+      "rating": 4.0,
+      "imagen_url": "https://picsum.photos/seed/receta50/400/300"
+    }
+  ],
+  "metadata": {
+    "total": 50,
+    "version": "1.0",
+    "descripcion": "Base de datos simulada de recetas de cocina"
+  }
+}
