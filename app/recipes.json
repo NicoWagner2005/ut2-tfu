@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tortilla de papas",
+    "porciones": 4,
+    "ingredientes": ["4 papas", "6 huevos", "1 cebolla", "aceite de oliva", "sal"],
+    "pasos": [
+      "Pelar y cortar las papas en rodajas finas.",
+      "Freir las papas con la cebolla a fuego bajo hasta que esten tiernas.",
+      "Batir los huevos, mezclar con las papas escurridas y salar.",
+      "Cuajar en sarten a fuego medio, dar vuelta con un plato y terminar de cocinar."
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Chivito uruguayo",
+    "porciones": 2,
+    "ingredientes": ["2 panes de pancho grandes", "300 g de lomo", "muzzarella", "jamon", "panceta", "lechuga", "tomate", "mayonesa"],
+    "pasos": [
+      "Cortar el lomo en churrascos finos y sellar en plancha bien caliente.",
+      "Dorar la panceta y fundir la muzzarella sobre la carne.",
+      "Armar el pan con mayonesa, lechuga, tomate, jamon y la carne.",
+      "Servir con papas fritas."
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Noquis de papa",
+    "porciones": 4,
+    "ingredientes": ["1 kg de papas", "300 g de harina", "1 huevo", "sal", "nuez moscada"],
+    "pasos": [
+      "Hervir las papas con cascara y pisarlas en caliente.",
+      "Integrar harina, huevo, sal y nuez moscada sin amasar de mas.",
+      "Formar cilindros, cortar los noquis y marcarlos con un tenedor.",
+      "Hervir hasta que floten y servir con la salsa elegida."
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Pascualina",
+    "porciones": 6,
+    "ingredientes": ["2 tapas de masa", "1 kg de espinaca", "1 cebolla", "4 huevos", "queso rallado", "sal", "pimienta"],
+    "pasos": [
+      "Blanquear la espinaca, escurrirla muy bien y picarla.",
+      "Rehogar la cebolla y mezclar con la espinaca, el queso y 2 huevos.",
+      "Forrar la tartera, volcar el relleno y hacer dos huecos con los huevos enteros.",
+      "Tapar, sellar los bordes y hornear 40 minutos a 180 grados."
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Alfajores de maicena",
+    "porciones": 20,
+    "ingredientes": ["200 g de maicena", "150 g de harina", "100 g de manteca", "75 g de azucar", "2 yemas", "dulce de leche", "coco rallado"],
+    "pasos": [
+      "Batir manteca con azucar, agregar las yemas y luego los secos.",
+      "Estirar la masa, cortar discos y hornear 10 minutos a 180 grados.",
+      "Unir de a dos con dulce de leche.",
+      "Pasar el borde por coco rallado."
+    ]
+  }
+]

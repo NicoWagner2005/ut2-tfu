@@ -1,0 +1,54 @@
+# =============================================================================
+# Tactica de rendimiento: MANTENER MULTIPLES COPIAS DEL COMPUTO
+# (Bass, Clements y Kazman - categoria "gestion de recursos")
+#
+# La tactica consiste en replicar la unidad de computo y poner un balanceador
+# de carga adelante que reparta los pedidos entre las copias. El objetivo es
+# reducir la contencion y el tiempo de espera en cola cuando llega mucho
+# trafico simultaneo.
+#
+# Aca se despliegan 3 copias IDENTICAS del servicio de recetas (api1, api2,
+# api3) y un nginx que las balancea. Las copias no publican puertos al host:
+# el unico punto de entrada es http://localhost:8080
+# =============================================================================
+
+# Definicion base de una copia del computo. Las tres copias reusan este mismo
+# bloque con un ancla de YAML (<<: *copia-del-computo), de modo que son
+# identicas por construccion y solo se diferencian en su INSTANCE_ID.
+x-servicio-recetas: &copia-del-computo
+  image: python:3.12-slim
+  working_dir: /app
+  volumes:
+    - ./app:/app:ro
+  command: python -u server.py
+  restart: unless-stopped
+
+services:
+  api1:
+    <<: *copia-del-computo
+    environment:
+      INSTANCE_ID: api1
+
+  api2:
+    <<: *copia-del-computo
+    environment:
+      INSTANCE_ID: api2
+
+  api3:
+    <<: *copia-del-computo
+    environment:
+      INSTANCE_ID: api3
+
+  # Balanceador de carga. Es parte de la tactica, no un extra: sin algo que
+  # distribuya el trabajo, tener copias no mejora el rendimiento.
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - api1
+      - api2
+      - api3
+    restart: unless-stopped
